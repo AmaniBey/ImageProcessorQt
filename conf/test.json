@@ -1,0 +1,66 @@
+{
+    "background": {
+        "enabled": false,
+        "algorithms": "KNN",
+        "history": 500,
+        "varThreshold": 6,
+        "detectShadows": true
+    },
+    "resize": {
+        "enabled": false,
+        "width": 640,
+        "height": 360
+    },
+    "color_convert": {
+        "enabled": false,
+        "mode": "BGR2HSV"
+    },
+    "open": {
+        "enabled": false,
+        "kernel_size": 5,
+        "iterations": 1
+    },
+    "close": {
+        "enabled": false,
+        "kernel_size": 5,
+        "iterations": 1
+    },
+    "erode": {
+        "enabled": false,
+        "kernel_size": 5,
+        "iterations": 1
+    },
+    "dilate": {
+        "enabled": false,
+        "kernel_size": 5,
+        "iterations": 1
+    },
+    "binary": {
+        "enabled": true,
+        "threshold": 47
+    },
+    "canny": {
+        "enabled": true,
+        "threshold1": 100,
+        "threshold2": 200
+    },
+    "contour": {
+        "enabled": false,
+        "min_area": 103,
+        "max_area": 10000,
+        "mode": "RETR_EXTERNAL",
+        "method": "CHAIN_APPROX_NONE"
+    },
+    "blur": {
+        "enabled": false,
+        "kernel_size": 7
+    },
+    "gaussian": {
+        "enabled": false,
+        "kernel_size": 21
+    },
+    "median": {
+        "enabled": false,
+        "kernel_size": 5
+    }
+}
