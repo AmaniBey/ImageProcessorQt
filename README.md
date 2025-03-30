@@ -1,0 +1,2 @@
+# ImageProcessorQt
+一个功能强大的图像处理桌面应用程序，基于PySide6和OpenCV构建，提供直观的用户界面和丰富的图像处理功能。
